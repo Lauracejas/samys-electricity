@@ -1,0 +1,37 @@
+strong {
+    font-family: 'Sacramento', cursive;
+    color: white;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+strong :hover{
+    transform: scale(1.1);
+}
+.header {
+    height: 80px;
+    background-color: red;
+    color:seashell;    
+}
+
+.links > ul > li {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+    justify-content: space-around;
+}
+
+.links {
+    float: right;
+    margin: 19px;
+    margin-right: 60px;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
