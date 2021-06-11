@@ -26,45 +26,35 @@ const NavBar = (props) => {
             <Link to="/"><strong>Samy's Electricity</strong></Link>
 
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav " style={{backgroundColor: "#fff", alignItems: "center"}}/>
-            <Navbar.Collapse id="responsive-navbar-nav " >
-                <Nav className="mr-auto">
-
-
-                </Nav>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor: "#fff", alignItems: "center"}}/>
+            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >            
                 <Nav>
                     <Nav.Link >
-                        <Link  style={{color: "#fff"}} to="/cart" className={location.pathname === "/cart" ? "nav-link active" : "nav-link"}>
+                        <Link  style={{color: "#fff", backgroundColor: "red"}} to="/About" className={location.pathname === "/About" ? "nav-link active" : "nav-link"}>
                             About Us
                            </Link>
 
                     </Nav.Link>
                     
                         <Nav.Link >
-                            <Link style={{color: "#fff"}} to="/signin"   className={location.pathname === "/cart" ? "nav-link active" : "nav-link"}>
+                            <Link style={{color: "#fff", backgroundColor: "red"}} to="/Services"   className={location.pathname === "/Services" ? "nav-link active" : "nav-link"}>
                                 Services
                                </Link>
                         </Nav.Link>
                         
                         <Nav.Link >
 
-                            <Link style={{color: "#fff"}} to="/signin" className={location.pathname === "/cart" ? "nav-link active" : "nav-link"}>
+                            <Link style={{color: "#fff", backgroundColor: "red"}} to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
                                 Projects
                                  </Link>
                         </Nav.Link>
                     
                     <Nav.Link>
-                        <Link  style={{color: "#fff"}} to="/inventory" className={location.pathname === "/inventory" ? "nav-link active" : "nav-link"}>
+                        <Link  style={{color: "#fff", backgroundColor: "red"}} to="/Contact" className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>
                             Contact Us
                             </Link>
                     </Nav.Link>
-                    <Nav.Link>
-                        <Link style={{color: "#fff"}} to="/profile" className={location.pathname === "/dashboard" ? "nav-link active" : "nav-link"}>
-                            {props.userLog?.user ?
-                                <p>{props.userLog?.user.name} </p> : <p>{props.user?.name}</p>
-                            }
-                        </Link>
-                    </Nav.Link>
+                    
 
                 </Nav>
             </Navbar.Collapse>

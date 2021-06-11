@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css"
+import "../style.css"
 
-import PhotoHero from "../assets/hero.jpg"
+import PhotoHero from "../../assets/hero.jpg"
 
 const Homepage = () => {
   return (
