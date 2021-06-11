@@ -1,0 +1,21 @@
+.pictureHero {
+    width: 100%;
+}
+
+.handyman {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:30px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.handyman > p {
+    font-size: 20px;
+}
+
+.homePic {
+   margin: 10px; 
+   height: 400px;
+   margin-top: 65px;
+}
