@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./style.css"
+
+import PhotoHero from "../assets/hero.jpg"
 
 const Homepage = () => {
   return (
-    <>
-      <div className="header">
-        <Link to="/"><strong>Samy's Electricity</strong></Link>
-        
-      </div>
+    <>      
+      
+      <img src={PhotoHero} alt="pictureHero" className="pictureHero" />
+      
     </>
   )
 }

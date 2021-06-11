@@ -7,6 +7,8 @@ function App() {
   return (
     <Router className="App">
      <Navbar />
+     <Homepage />
+
      
       
     </Router>
