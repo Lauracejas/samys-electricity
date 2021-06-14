@@ -33,13 +33,13 @@ const Contact = () => {
                         <p><i className="fas fa-phone"></i><a href="tel:9802750597"> (980) 275 0597</a></p>
                         <p><i className="far fa-envelope"></i><a href="mailto:ruben@gmail.com"> ruben@gmail.com</a></p>
                         <div className="buttonz">
-                            <a href="https://www.linkedin.com/in/laura-cejas-058913155/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
+                            <a href="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
                             </span>LinkedIn</a>
-                            <a href="https://github.com/Lauracejas" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
+                            <a href="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
                                 <i className="ion-social-github"></i>
-                            </span>GitHub</a>
-                            <a href="https://docs.google.com/document/d/196bqnfpnuikdFeAO_HKCvF5XmSUiGuyfg6KAgbL5asA/edit" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
+                            </span>Instagram</a>
+                            <a href="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
                                 <i className="ion-social-codepen"></i>
                             </span>Resume</a>
                         </div>
