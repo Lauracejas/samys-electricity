@@ -1,16 +1,21 @@
 import React from "react";
-// import "../style.css"
+ import "./contact.css"
 
-// import PhotoHero from "../../assets/hero.jpg"
-
-const Services = () => {
+const Contact = () => {
   return (
-    <>      
+    <div className="contact">   
+
+    <div className="contact-card">
+
+    </div>
       
-      {/* <img src={PhotoHero} alt="pictureHero" className="pictureHero" /> */}
       
-    </>
+      
+    </div>
   )
 }
 
-export default Services;
+export default Contact;
+
+
+// export default Contact;

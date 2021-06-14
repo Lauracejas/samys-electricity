@@ -1,0 +1,9 @@
+.contact {
+    background-image: url(../../assets/contact.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: fixed;
+    overflow-x: hidden
+}
+
+
