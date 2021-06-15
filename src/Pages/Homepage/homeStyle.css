@@ -1,5 +1,25 @@
+.heroPic {
+    background-image: url(../../assets/hero.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    background-position: fixed;
+    overflow-x: hidden
+}
+
 .pictureHero {
     width: 100%;
+}
+
+.backOpacity {
+    background-color:  rgba(43, 29, 231, 0.6);
+    border-radius: 25px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 200px;
+    margin-right: 10px;
+    color: white;
+    height: fit-content;
+    
 }
 
 .handyman {
@@ -18,4 +38,5 @@
    margin: 10px; 
    height: 400px;
    margin-top: 65px;
+   overflow-x: hidden
 }

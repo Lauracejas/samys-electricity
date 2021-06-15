@@ -8,7 +8,7 @@ const Contact = () => {
     };
     return (
         <div className="contact">
-            <h1 className="heading">Contact Me</h1>
+            <h1 className="heading">Contact Us</h1>
             <div className="container ">
 
                 <div className=" row blueBack">
@@ -29,8 +29,8 @@ const Contact = () => {
                             Services from Samy's Electricity are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible.
                             </p>
                         </div>
-                        <p><i className="fas fa-map-marker-alt"></i> Charlotte, NC, 28270</p>
-                        <p><i className="fas fa-phone"></i><a href="tel:9802750597"> (980) 275 0597</a></p>
+                        <p><i className="fas fa-map-marker-alt"></i> Charlotte, NC</p>
+                        <p><i className="fas fa-phone"></i><a href="tel:9802750597">(704) 681 2083</a></p>
                         <p><i className="far fa-envelope"></i><a href="mailto:ruben@gmail.com"> ruben@gmail.com</a></p>
                         <div className="buttonz">
                             <a href="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
