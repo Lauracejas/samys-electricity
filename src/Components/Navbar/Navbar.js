@@ -23,7 +23,7 @@ const NavBar = (props) => {
 
       <Navbar collapseOnSelect expand="lg"  className="bg header" >
             <Navbar.Brand >
-            <Link to="/"><strong>Samy's Electricity</strong></Link>
+            <Link to="/"><strong>Samy's Restoration</strong></Link>
 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor: "#fff", alignItems: "center"}}/>
