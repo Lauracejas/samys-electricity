@@ -30,6 +30,7 @@ const Contact = () => {
     //   const handleChange = (e) => {
     //     setToSend({ ...toSend, [e.target.name]: e.target.value });
     //   };
+
     return (
         <div className="contact">
             <h1 className="heading">Contact Us</h1>
@@ -64,9 +65,9 @@ const Contact = () => {
                             placeholder="How can I help you?" 
                             
                             required></textarea>
-                            <input type="submit" className="btn btn-info-secondary" value="Send Mesage"></input>
+                            <input id="sendBut" type="submit" className="btn btn-info-secondary" value="Send Mesage"></input>
                         </form>
-                            {/* <button sendEmail={sendEmail} style={{ cursor: 'pointer' }} className="btn btn-secondary" type="submit"><label style={{ cursor: 'pointer' }} id="not-dark">Send Message</label></button> */}
+                            {/* <button onSubmit={sendEmail} style={{ cursor: 'pointer' }} className="btn btn-secondary" type="submit"><label style={{ cursor: 'pointer' }} id="not-dark">Send Message</label></button> */}
                     </div>
                     <div className="linksMe col-md-6 ">
 

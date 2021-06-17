@@ -14,6 +14,8 @@ strong {
 
 .navbar-toggler {
     margin-right: 20px;
+    padding: 0px;
+    padding-right: 0px;
  
 }
 
@@ -22,7 +24,7 @@ strong :hover{
 }
 .header {
     height: 90px;
-    background-color: red;
+    background-color: rgb(184, 18, 18);
     color:seashell;    
 }
 

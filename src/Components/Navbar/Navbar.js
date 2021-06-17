@@ -30,27 +30,27 @@ const NavBar = (props) => {
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >            
                 <Nav>
                     <Nav.Link >
-                        <Link  style={{color: "#fff", backgroundColor: "red"}} to="/About" className={location.pathname === "/About" ? "nav-link active" : "nav-link"}>
+                        <Link  style={{color: "#fff", backgroundColor: "rgb(184, 18, 18)"}} to="/About" className={location.pathname === "/About" ? "nav-link active" : "nav-link"}>
                             About Us
                            </Link>
 
                     </Nav.Link>
                     
                         <Nav.Link >
-                            <Link style={{color: "#fff", backgroundColor: "red"}} to="/Services"   className={location.pathname === "/Services" ? "nav-link active" : "nav-link"}>
+                            <Link style={{color: "#fff", backgroundColor: "rgb(184, 18, 18)"}} to="/Services"   className={location.pathname === "/Services" ? "nav-link active" : "nav-link"}>
                                 Services
                                </Link>
                         </Nav.Link>
                         
                         <Nav.Link >
 
-                            <Link style={{color: "#fff", backgroundColor: "red"}} to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
+                            <Link style={{color: "#fff", backgroundColor: "rgb(184, 18, 18)"}} to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
                                 Projects
                                  </Link>
                         </Nav.Link>
                     
                     <Nav.Link>
-                        <Link  style={{color: "#fff", backgroundColor: "red"}} to="/Contact" className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>
+                        <Link  style={{color: "#fff", backgroundColor: "rgb(184, 18, 18)"}} to="/Contact" className={location.pathname === "/Contact" ? "nav-link active" : "nav-link"}>
                             Contact Us
                             </Link>
                     </Nav.Link>
