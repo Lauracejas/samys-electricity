@@ -1,0 +1,18 @@
+.services {
+    color: brown;
+}
+.headServ{
+    font-family: 'Sacramento', cursive;
+    margin-top: 15px;
+}
+#serviceDoor{
+    height: 70px;
+}
+#serviceFloor{
+    height: 70px;
+}
+
+.icons{
+    background-color: brown;
+    padding: 30px;
+}
