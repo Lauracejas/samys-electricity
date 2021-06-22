@@ -6,33 +6,45 @@
     margin-top: 15px;
 }
 #serviceDoor{
-    height: 70px;
+    height: 87px;
 }
 #serviceFloor{
-    height: 70px;
+    height: 87px;
 }
 #serviceBath{
-    height: 70px;
+    height: 87px;
 }
 #servicePainting{
-    height: 70px;
+    height: 87px;
+}
+#serviceElect {
+    height: 87px;
+}
+#serviceRoof {
+    height: 87px;
+}
+#servicePlumb {
+    height: 87px;
 }
 
 .icons{
-    background-color: brown;
     padding: 30px;
+    display: inline-block;
+}
+.icons:hover {
+    transform: scale(1.1);
 }
 
 .containers{
 display: inline-block;
-overflow: auto;
 text-align: center;
+background-color: rgb(184, 18, 18);
 }
 
 span {
     display: block;
     color: white;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {

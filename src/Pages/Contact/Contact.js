@@ -82,7 +82,7 @@ const Contact = () => {
                         <div className="buttonz">
                             <a href="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
                                 <i className="ion-social-facebook"></i>
-                            </span>Facebook</a>
+                            </span></a>
                             
                         </div>
                     </div>
