@@ -3,7 +3,7 @@ const cardData = [
     id: 1,
     title: "Doors",
     description: "This is my description",
-    image: "./assets/door.jpg"
+    image: "./door.jpg"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const cardData = [
     id: 3,
     title: "Bathroom",
     description: "This is my description",
-    image: "./assets/door.jpg"
+    image: "./door.jpg"
   },
   {
     id: 4,

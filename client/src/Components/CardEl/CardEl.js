@@ -5,7 +5,7 @@ const CardEl = () => {
     return (
         <>
             {cardData.map(item => (
-                    <div className="card door" key={item.id}>
+                    <div className="card" key={item.id}>
                         <img src={item.image} className="card-img-top" alt="images" />
                         <div className="card-body">
                             <h5 className="card-title">{item.title}</h5>
