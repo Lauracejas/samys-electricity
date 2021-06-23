@@ -1,18 +1,22 @@
-import doorS from '../../assets/door.jpg'
+import React from 'react';
+import cardData from "../../services"
 
 const CardEl = () => {
     return (
-        
-<div class="card door" >
-    <img src={doorS} class="card-img-top" alt="" />
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="/" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-
-    )
+        <>
+            {cardData.map(item => (
+                    <div className="card door" key={item.id}>
+                        <img src={item.image} className="card-img-top" alt="images" />
+                        <div className="card-body">
+                            <h5 className="card-title">{item.title}</h5>
+                            <p className="card-text">{item.description}</p>
+                            <a href="/" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                ))
+            }
+        </>
+    );
 
 }
 

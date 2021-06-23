@@ -54,7 +54,7 @@ const Services = () => {
           <div className="icons col-sd-4">
             <Link to="/Project">
               <svg xmlns="http://www.w3.org/2000/svg" height="87" viewBox="0 0 56 56" ><g id="servicePlumb" fill="none" fill-rule="evenodd"><g id="007---Pipe" fill="rgb(0,0,0)" ><path id="Shape" d="m22 38c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4v-34h-12v34c0 8.836556 7.163444 16 16 16s16-7.163444 16-16v-2h-12zm-16-11c0 .5522847-.44771525 1-1 1s-1-.4477153-1-1v-14c0-.5522847.44771525-1 1-1s1 .4477153 1 1zm0-18c0 .55228475-.44771525 1-1 1s-1-.44771525-1-1v-2c0-.55228475.44771525-1 1-1s1 .44771525 1 1z" fill="#fff" /><path id="Shape" d="m16 1c0-.55228475-.4477153-1-1-1h-14c-.55228475 0-1 .44771525-1 1s.44771525 1 1 1h14c.5522847 0 1-.44771525 1-1z" fill="#fff" /><rect id="Rectangle-path" height="12" rx="1" width="16" x="20" y="22" fill="#fff" /><path id="Shape" d="m55 54h-14c-.5522847 0-1 .4477153-1 1s.4477153 1 1 1h14c.5522847 0 1-.4477153 1-1s-.4477153-1-1-1z" fill="#fff" /><path id="Shape" d="m42 18v34h12v-34c0-8.836556-7.163444-16-16-16s-16 7.163444-16 16v2h12v-2c0-2.209139 1.790861-4 4-4s4 1.790861 4 4z" fill="#fff" /></g></g></svg>
-              <span>Roofing</span>
+              <span>Plumbing</span>
             </Link>
           </div>
         </div>
