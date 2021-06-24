@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom"
-import "./style.css"
-import CardEl from '../../Components/CardEl/CardEl'
+import { Link } from "react-router-dom";
+import "./style.css";
+// import CardEl from '../../Components/CardEl/CardEl'
+import Photo from "../../assets/close.jpg";
 
 const Services = () => {
   return (
@@ -60,17 +61,46 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="cards">
-      
-        
-       
+      <div className="container-fluid">
+        <div className="sectionOne row">
+          <p className="col-sm-8  textClose">
+            Samy's Restoration is proud to help residential and commercial customers by delivering professional, reliable maintenance, repairs, and other improvements, promptly, on-budget, and on time. We are a customer-focused company and seek to change your mind about maintenance companies when you need to schedule an appointment – yesterday. Our work is backed with a two-year warranty, so you can trust that we strive to exceed your expectations for a job well done.
+          </p>
+          <img src={Photo} alt="close1" className="col-sm-3 closePic " />
+        </div>
+
+        <div className="ourServices ">
+          <h4 className="text-left">Our Services</h4>
+          <ul className="col-sm-3 text-left">
+            <li>Electricity</li>
+            <li>Carpentry</li>
+            <li>Electrical</li>
+            <li>Maintenance services</li>
+            <li>Plumbing</li>
+            <li>Remodeling</li>
+            <li>Painting</li>
+            <li>Kitchen upgrades</li>
+            <li>Drywall</li>
+            <li>Roofing</li>
+            <li>Ceramic & Laminate Flooring</li>
+            <li>Door Repair & Installation</li>
+            <li>Flooring installation, repair and maintenance</li>
+          </ul>
+          
+        </div>
+
+        <p className=" sectionOne textClose">
+          We realize you have strict budgets to add here to when you’re running a business, and we’re here to provide honest, upfront and free estimates, with a lightning-fast response time. From your first interaction with our Customer Care Center and even after your job is complete, you will enjoy the utmost respect and courtesy from our staff. We value our customers and want to cultivate lasting professional relationships with them. Discover the Samy's Restoration difference, and contact us today to learn more about our service offerings.
+        </p>
+
+
 
       </div>
-      </div>
+    </div> 
 
 
 
-      )
+  )
 }
 
-      export default Services;
+export default Services;

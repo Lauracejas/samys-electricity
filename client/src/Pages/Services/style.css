@@ -60,3 +60,31 @@ span {
     width: 12rem;
     margin: 20px;
 }
+
+.sectionOne{
+    justify-content: center;
+    text-align: left;
+    margin: 20px;
+    background-color: rgba(228, 222, 222, 0.4);
+    padding: 30px;
+}
+
+.textClose{
+    float: left;
+
+}
+.closePic{
+    float:right;
+    margin-top: 0;
+    padding-left: 10px ;
+    padding-right: 0;
+}
+
+.ourServices > ul{
+    justify-content: center;
+    margin: 20px;
+}
+
+h4 {
+    color: rgb(184, 18, 18); ;
+}

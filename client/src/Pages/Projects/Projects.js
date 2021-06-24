@@ -5,8 +5,7 @@ import "./projects.css"
 
 const Projects = () => {
   return (
-    <>      
-      
+    <>            
      <CardEl />
       
     </>
