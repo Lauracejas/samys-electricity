@@ -34,6 +34,12 @@ const cardData = [
     title: "Roofing",
     description: "This is my description",
     image: "./assets/door.jpg"
+  },
+  {
+    id: 7,
+    title: "Plumbing",
+    description: "This is my description",
+    image: "./assets/door.jpg"
   }
 ];
 

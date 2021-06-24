@@ -78,6 +78,7 @@ span {
     margin-top: 0;
     padding-left: 10px ;
     padding-right: 0;
+    height: fit-content;
 }
 
 .ourServices > ul{
@@ -87,4 +88,8 @@ span {
 
 h4 {
     color: rgb(184, 18, 18); ;
+}
+
+.textClose {
+    margin-bottom: 150px;
 }
