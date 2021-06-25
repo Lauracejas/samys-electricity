@@ -19,7 +19,7 @@ strong {
  
 }
 
-strong :hover{
+.navbar-brand:hover{
     transform: scale(1.1);
 }
 .header {

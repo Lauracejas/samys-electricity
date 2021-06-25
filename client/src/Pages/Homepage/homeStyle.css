@@ -3,7 +3,8 @@
     background-size: cover;
     min-height: 50vh;
     background-position: fixed;
-    overflow-x: hidden
+    overflow-x: hidden;
+
 }
 
 .pictureHero {
@@ -37,11 +38,16 @@
 
 .homePic {
    margin: 10px; 
-   height: 400px;
+   height: fit-content;
    margin-top: 65px;
-   overflow-x: hidden
+   overflow-x: hidden;
+
 }
 
 .first {
     justify-content: center;
+}
+
+.content {
+    margin-bottom: 100px;
 }

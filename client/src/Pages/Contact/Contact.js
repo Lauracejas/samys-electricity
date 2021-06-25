@@ -19,7 +19,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('gmail', 'template_ff2b5zq', e.target, 'user_aJUQ488C6B5o1b0uwSIXz')
+        emailjs.sendForm('service_5ps6bed', 'template_ff2b5zq', e.target, 'user_aJUQ488C6B5o1b0uwSIXz')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
