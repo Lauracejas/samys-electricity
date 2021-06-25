@@ -3,7 +3,7 @@ const cardData = [
     id: 1,
     title: "Doors",
     description: "Do You Have an Old or Outdated Door? Give Us a Call Today For a Free Estimate.",
-    image: "https://picsum.photos/seed/picsum/200/300"
+    image: "doors"
   },
   {
     id: 2,
@@ -15,31 +15,31 @@ const cardData = [
     id: 3,
     title: "Bathroom",
     description: "This is my description",
-    image: "/door.jpg"
+    image: "bathroom"
   },
   {
     id: 4,
     title: "Painting",
     description: "This is my description",
-    image: "/"
+    image: "painting"
   },
   {
     id: 5,
-    title: "Electricity",
+    title: "Electrical",
     description: "This is my description",
-    image: "./assets/door.jpg"
+    image: "electrical"
   },
   {
     id: 6,
     title: "Roofing",
     description: "This is my description",
-    image: "./assets/door.jpg"
+    image: "roofing"
   },
   {
     id: 7,
     title: "Plumbing",
     description: "This is my description",
-    image: "./assets/door.jpg"
+    image: "plumbing"
   }
 ];
 

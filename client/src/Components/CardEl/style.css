@@ -1,4 +1,13 @@
 .cardSection {
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 100px;
+}
+.card-img {
+    width: fit-content;
+}
+
+.card{
+    width: 18rem;
+    padding-left: 0;
 }
