@@ -1,13 +1,18 @@
 .cardSection {
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .card-img {
-    width: fit-content;
+    height: 195px;
 }
 
 .card{
-    width: 18rem;
+    width: 15rem;
     padding-left: 0;
+    padding-right: 0;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
