@@ -11,7 +11,7 @@
 }
 
 .backOpacity {
-    background-color:  rgba(43, 29, 231, 0.6);
+    background-color:  rgba(43, 29, 231, 0.5);
     border-radius: 25px;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -19,6 +19,7 @@
     margin-right: 10px;
     color: white;
     height: fit-content;
+    justify-content: center;
     
 }
 
@@ -39,4 +40,8 @@
    height: 400px;
    margin-top: 65px;
    overflow-x: hidden
+}
+
+.first {
+    justify-content: center;
 }

@@ -92,9 +92,9 @@ const Contact = () => {
                             </span></Link>
 
                         </div> */}
-                        <Link to="/" >
+                        <a href="https://www.facebook.com/samyselectric/" >
                         <FaFacebook className="faceBook" style={{ color: "darkblue", size:"20px" }}/>
-                        </Link>
+                        </a>
                         <Link to="/">
                         <FaInstagram className="InstaGram" style={{ color: "darkorange", size:"20px" }}/>
                         </Link>

@@ -21,7 +21,7 @@ const Homepage = () => {
       </div>
 
 
-      <div className="Container-fluid">
+      <div className="Container-fluid content">
         <div className="row first">
           <div className="col-md-5 handyman">
             <h1 className=""> Samy's Restoration </h1>
