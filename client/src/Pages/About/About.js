@@ -22,9 +22,9 @@ const About = () => {
           
             <h4>Samy's Restoration® GUARANTEE</h4>
           <p className="text-center">
-            Many homeowners associate home improvement companies with no-show technicians, arbitrary pricing schemes, hit-or-miss workmanship, and a general lack of professionalism. When you choose Handyman Pro, we seek to change your mind. Our home repair and maintenance company offers customer-focused solutions from professional handyman technicians dedicated to making sure the job is done right the first time on every level.
+            Many homeowners associate home improvement companies with no-show technicians, arbitrary pricing schemes, hit-or-miss workmanship, and a general lack of professionalism. When you choose Samy's Restoration®, we seek to change your mind. Our home repair and maintenance company offers customer-focused solutions from professional handyman technicians dedicated to making sure the job is done right the first time on every level.
 
-            When you choose Handyman Pro, your repair, remodel, or maintenance projects will be completed by craftsmen who are licensed, bonded, and insured. Our 24/7 Customer Care Center is available to you around the clock to request free estimates, schedule appointments, or discover more information. We back our work with a two-year warranty, so you can trust that our work will last. We know what homeowners expect from a home repair company. Handyman Pro goes above and beyond.
+            When you choose Samy's Restoration®, your repair, remodel, or maintenance projects will be completed by craftsmen who are licensed, bonded, and insured.  We back our work with a one-year warranty, so you can trust that our work will last. We know what homeowners expect from a home repair company. Samy's Restoration® goes above and beyond.
           </p>
         </div>
       </div>

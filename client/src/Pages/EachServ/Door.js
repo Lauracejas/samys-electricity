@@ -1,7 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
-import cardData from "../../Seeds/services";
+import React from "react";
+// import ImageGallery from 'react-image-gallery';
 import "./style.css";
+import cardData from "../../Seeds/services";
+// import { useParams } from "react-router-dom";
 
 import doors from "../../assets/doors.jpg";
 import floor from "../../assets/floori.jpg";
@@ -32,26 +33,26 @@ function image (image) {
     }
 }
 
-const CardEl = () => {
-    console.log(cardData)
+console.log(image);
+
+const MyGallery = () => {
     return (
-        <div className="row text-center cardSection">
+        <div>
+            <p className="title text-center">Doors Reparation and new installation</p>
+            <div className="row text-center cardSection">
             {cardData.map(item => (
                     <div className="card"  key={item.id}>
-                        <Link to={item.url} style={{textDecoration:"none"}}>
                         <img src={image(item.image)} className="card-img" alt="images" />
-                        <div className="card-body">
-                            <h4 className="card-title">{item.title}</h4>
-                            <p className="card-text">{item.description}</p>
-                            {/* <a href="/" className="btn btn-primary">See my work</a> */}
-                        </div>
-                        </Link>
+                        
                     </div>
                 ))
             }
         </div>
-    );
+        
+        </div>
 
+    ) 
+  
 }
 
-export default CardEl;
+export default MyGallery;

@@ -1,0 +1,13 @@
+/* 
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+@import "~react-image-gallery/styles/css/image-gallery.css"; */
+
+.title{
+    margin: 30px;
+}
+
+.card-image {
+    width: fit-content;
+}
