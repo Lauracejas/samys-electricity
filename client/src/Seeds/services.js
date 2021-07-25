@@ -18,14 +18,14 @@ const cardData = [
     title: "Bathroom",
     description: "If your bathroom needs a facelift, we're here to help! Contact Us For a Free Estimate. ",
     image: "bathroom",
-    url: "/Electrical"
+    url: "/Bathroom"
   },
   {
     id: 4,
     title: "Plumbing",
     description: "Our services include drain cleaning, sewer line repair, repiping, hydro jetting & more",
     image: "plumbing",
-    url: "/Electrical"
+    url: "/Plumbing"
   },
   {
     id: 5,
@@ -39,14 +39,14 @@ const cardData = [
     title: "Floor",
     description: "Do You Have Damaged or Outdated Flooring? Contact Us For a Free Estimate. ",
     image: "floor",
-    url: "/Electrical"
+    url: "/Floor"
   },  
   {
     id: 7,
     title: "Painting",
     description: "There’s nothing like a fresh coat of paint to boost your home’s exterior curb appeal!",
     image: "painting",
-    url: "/Electrical"
+    url: "/Painting"
   },
   
   

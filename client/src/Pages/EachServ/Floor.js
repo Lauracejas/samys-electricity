@@ -1,14 +1,14 @@
 import React from "react";
-// import "./door.css";
+import "./style.css";
 import cardData from "../../Seeds/services";
 
-import doors from "../../assets/electrical/elect3.jpg";
-import floor from "../../assets/electrical/elect4.jpg";
-import bathroom from "../../assets/electrical/elect5.jpg";
-import painting from "../../assets/electrical/elect6.jpg";
-import electrical from "../../assets/electrical/elect7.jpg";
-import roofing from "../../assets/electrical/elect2.jpg";
-import plumbing from "../../assets/electrical/electric1.jpg";
+import doors from "../../assets/floor/floor1.jpg";
+import floor from "../../assets/floor/floor2.jpg";
+import bathroom from "../../assets/floor/floor3.jpg";
+import painting from "../../assets/floor/floor4.jpg";
+import electrical from "../../assets/floor/floor5.jpg";
+import roofing from "../../assets/floor/floor6.jpg";
+import plumbing from "../../assets/floor/floor7.jpg";
 
 
 function image (image) {

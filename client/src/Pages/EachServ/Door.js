@@ -42,7 +42,7 @@ const MyGallery = () => {
             <div className="row text-center cardSection">
             {cardData.map(item => (
                     <div className="card"  key={item.id}>
-                        <img src={image(item.image)} className="card-img" alt="images" />
+                        <img src={image(item.image)} style={{width:"300px", height:"300px"}} className="card-img" alt="images" />
                         
                     </div>
                 ))

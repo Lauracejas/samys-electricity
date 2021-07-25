@@ -10,6 +10,9 @@ import Door from "./Pages/EachServ/Door";
 import Electrical from "./Pages/EachServ/Electrical";
 import Roofing from "./Pages/EachServ/Roofing";
 import Bathroom from "./Pages/EachServ/Bathroom";
+import Floor from "./Pages/EachServ/Floor";
+import Painting from "./Pages/EachServ/Painting";
+import Plumbing from "./Pages/EachServ/Plumbing";
 import Footer from "./Components/Footer/Footer";
 // import { GlobalStyles } from './Components/Global/Global';
 import { ThemeProvider } from 'styled-components';
@@ -31,6 +34,9 @@ function App() {
       <Route path="/Electrical" component={Electrical} />
       <Route path="/Roofing" component={Roofing} />
       <Route path="/Bathroom" component={Bathroom} />
+      <Route path="/Floor" component={Floor} />
+      <Route path="/Painting" component={Painting} />
+      <Route path="/Plumbing" component={Plumbing} />
 
       <Footer />
     </Router>

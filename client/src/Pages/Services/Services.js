@@ -19,7 +19,7 @@ const Services = () => {
             </Link>
           </div>
           <div className="icons col-sd-4">
-            <Link to="/Projects" style={{textDecoration:"none"}}>
+            <Link to="/Floor" style={{textDecoration:"none"}}>
               <svg id="serviceFloor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.18 95.18"><g><title>Floors</title><path fill="#fff" fillRule="evenodd" d="M49.3 45.88h45.88V32.6H49.3zM66 95.18h13.28V49.3H66zm-16.7 0h13.28V49.3H49.3zm33.4 0h12.48V49.3H82.7zM49.3 0v12.48h45.88V0zm0 29.18h45.88V15.9H49.3zm-16.7 16.7h13.28V0H32.6zM0 79.28h45.88V66H0zm0 15.9h45.88V82.7H0zM12.48 0H0v45.88h12.48zM0 62.58h45.88V49.3H0zM29.18 0H15.9v45.88h13.28z"></path></g></svg><span>Floor</span>
             </Link>
           </div>
@@ -32,7 +32,7 @@ const Services = () => {
           </div>
 
           <div className="icons col-sd-4">
-            <Link to="/Project" style={{textDecoration:"none"}}>
+            <Link to="/Painting" style={{textDecoration:"none"}}>
               <svg id="servicePainting" height="87" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.87 390.24"><title>Painting</title><g><path d="M283.42 28.11h-35.51V7.92A8 8 0 00240 0H7.92A8 8 0 000 7.92v68a8 8 0 007.92 7.88H240a8 8 0 007.92-7.92V52h15.94v74s.43 2.35-1.41 2.78-116.93 51.76-134.11 59.42c-1.39.62-2.13 1-2.13 3.1v42.22h-21.73v16.82h4.43v120.42s0 19.48 26.12 19.48 26.12-19.48 26.12-19.48V250.35h4.43v-16.83h-20.16v-25a2.21 2.21 0 011.46-2.29l138.8-63.36a2.25 2.25 0 001.18-2.29V31.19a2.9 2.9 0 00-3.44-3.07" fill="#fff"></path></g></svg>
               <span>Painting</span>
             </Link>
@@ -54,7 +54,7 @@ const Services = () => {
           </div>
 
           <div className="icons col-sd-4">
-            <Link to="/Project" style={{textDecoration:"none"}}>
+            <Link to="/Plumbing" style={{textDecoration:"none"}}>
               <svg xmlns="http://www.w3.org/2000/svg" height="87" viewBox="0 0 56 56" ><g id="servicePlumb" fill="none" fillRule="evenodd"><g id="007---Pipe" fill="rgb(0,0,0)" ><path id="Shape" d="m22 38c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4v-34h-12v34c0 8.836556 7.163444 16 16 16s16-7.163444 16-16v-2h-12zm-16-11c0 .5522847-.44771525 1-1 1s-1-.4477153-1-1v-14c0-.5522847.44771525-1 1-1s1 .4477153 1 1zm0-18c0 .55228475-.44771525 1-1 1s-1-.44771525-1-1v-2c0-.55228475.44771525-1 1-1s1 .44771525 1 1z" fill="#fff" /><path id="Shape" d="m16 1c0-.55228475-.4477153-1-1-1h-14c-.55228475 0-1 .44771525-1 1s.44771525 1 1 1h14c.5522847 0 1-.44771525 1-1z" fill="#fff" /><rect id="Rectangle-path" height="12" rx="1" width="16" x="20" y="22" fill="#fff" /><path id="Shape" d="m55 54h-14c-.5522847 0-1 .4477153-1 1s.4477153 1 1 1h14c.5522847 0 1-.4477153 1-1s-.4477153-1-1-1z" fill="#fff" /><path id="Shape" d="m42 18v34h12v-34c0-8.836556-7.163444-16-16-16s-16 7.163444-16 16v2h12v-2c0-2.209139 1.790861-4 4-4s4 1.790861 4 4z" fill="#fff" /></g></g></svg>
               <span>Plumbing</span>
             </Link>
