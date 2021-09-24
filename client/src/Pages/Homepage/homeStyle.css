@@ -1,5 +1,5 @@
 .heroPic {
-    background-image: url(../../assets/hero.jpg);
+    background-image: url(../../assets/electrical/casa3.jpg);
     background-size: cover;
     min-height: 50vh;
     background-position: fixed;
@@ -12,7 +12,7 @@
 }
 
 .backOpacity {
-    background-color:  rgba(43, 29, 231, 0.5);
+    background-color:  rgba(135, 135, 138, 0.5);
     border-radius: 25px;
     padding-top: 2vh;
     padding-bottom: 2vh;

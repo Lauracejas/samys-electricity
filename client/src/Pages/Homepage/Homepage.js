@@ -11,9 +11,9 @@ const Homepage = () => {
       <div className="heroPic row">
 
         <div className="backOpacity col-md-4 position-absolute top-40 end-0 translate-middle-y">
-          <h4> Samy's Restoration in Charlotte</h4>
+          <h4> Samy's Electrical Service</h4>
           <p> HOME IMPROVEMENT, MAINTENANCE, & REPAIR
-            Trust Your Home to Samy's Restoration</p>
+            Trust Your Home to Samy's Electrical Service</p>
             <Link to="/Contact">
             <button  type="button" className="btn btn-danger">Contact Us</button>
             </Link>
