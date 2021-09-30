@@ -73,20 +73,14 @@ const Services = () => {
         <div className="ourServices ">
           <h4 className="text-left">Our Services</h4>
           <ul className="col-sm-3 text-left">
-            <li>Carpentry</li>
-            <li>Electrical</li>
-            <li>Lighting Installation</li>
-            <li>Maintenance services</li>
-            <li>Plumbing</li>
-            <li>Remodeling</li>
-            <li>Painting</li>
-            <li>Kitchen upgrades</li>
-            <li>Drywall</li>
-            <li>Roof installation or replacement</li>
-            <li>Flooring</li>
-            <li>Door Installation</li>
-            <li>Deck or Porch Remodel or Addition</li>
-            
+            <li>Electrical Repairs</li>
+            <li>Electrical Installation</li>
+            <li>Whole-Home Backup Generators</li>
+            <li>Panel and Breaker Services</li>
+            <li>Rewiring Services</li>
+            <li>Protection</li>
+            <li>Electric Meter Services</li>
+            <li>Whole-Home Surge</li>            
           </ul>
           
         </div>
