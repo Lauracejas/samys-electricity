@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import "./homeStyle.css"
 
 // import PhotoHero from "../../assets/hero.jpg"
-import Photo from "../../assets/home2.jpg"
+import Photo from "../../assets/electrical/casa4.jpg"
 
 const Homepage = () => {
   return (
@@ -11,9 +11,8 @@ const Homepage = () => {
       <div className="heroPic row">
 
         <div className="backOpacity col-md-4 position-absolute top-40 end-0 translate-middle-y">
-          <h4> Samy's Electrical Service</h4>
-          <p> HOME IMPROVEMENT, MAINTENANCE, & REPAIR
-            Trust Your Home to Samy's Electrical Service</p>
+          <h4> Samy's Electrical Service </h4>
+          <p> We are Residential & Commercial Electricians</p>
             <Link to="/Contact">
             <button  type="button" className="btn btn-danger">Contact Us</button>
             </Link>
@@ -24,8 +23,8 @@ const Homepage = () => {
       <div className="Container-fluid content">
         <div className="row first">
           <div className="col-md-5 handyman">
-            <h1 className=""> Samy's Restoration </h1>
-            <p className="handy-description"> Is your to-do list growing rapidly? Do you find all your free time being taken up by home repairs and improvements? Well worry no more with Mr. Handyman of South Charlotte! Our expert handymen in South Charlotte are here to handle all your home improvement needs. We work with highly trained home repair professionals who have years of construction industry experience, so you can count on our team for a job well done. We have the expertise, the equipment, and the skill to tackle any home repair or home improvement project. Your satisfaction is our top priority, and we guarantee that our team will treat you and your home with the highest levels of respect.</p>
+            <h1 className=""> Samy's Electrical Services </h1>
+            <p className="handy-description">Samy's Electrical Service is a family-owned and operated company comprised of licensed Charlotte electricians. Our expertise is everything electrical inside and outside of a home. We have been Keeping Our Clients Safe Since 2008 and giving peace of mind that our licensed electricians can solve the smallest to largest issue in your house. We will advise you through all of your choices in each job, follow up with transparent communication and perform the work in a craftsman-like manner giving each client the care they deserve. We never cut corners and focus on safety, efficiency and quality. We look forward to serving you for all of your electrical needs.</p>
           </div>
           <img src={Photo} alt="home1" className="col-md-5 homePic " />
         </div>

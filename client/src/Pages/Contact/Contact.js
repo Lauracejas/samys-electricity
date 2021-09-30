@@ -74,7 +74,7 @@ const Contact = () => {
 
                         <div className="more-info">
                             <p className="lead">
-                                Services from Samy's Restoration are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible.
+                                Services from Samy's Electrical Services are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible.
                             </p>
                         </div>
                         <p><i className="fas fa-map-marker-alt"></i> Charlotte, NC</p>
