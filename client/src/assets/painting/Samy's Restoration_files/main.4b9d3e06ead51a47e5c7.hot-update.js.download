@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/assets/paint.jpg":
+/*!******************************!*\
+  !*** ./src/assets/paint.jpg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ../node_modules/url-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\laura\\Activities\\001-My Projects\\samys-electricity\\client\\src\\assets\\paint.jpg'");
+
+/***/ }),
+
+/***/ "./src/assets/plumb.jpg":
+/*!******************************!*\
+  !*** ./src/assets/plumb.jpg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ../node_modules/url-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\laura\\Activities\\001-My Projects\\samys-electricity\\client\\src\\assets\\plumb.jpg'");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.4b9d3e06ead51a47e5c7.hot-update.js.map

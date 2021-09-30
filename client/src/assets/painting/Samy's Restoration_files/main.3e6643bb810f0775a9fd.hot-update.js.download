@@ -1,0 +1,17 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/assets/painting/painting5.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/painting/painting5.jpg ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/painting5.55c0260f.jpg");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.3e6643bb810f0775a9fd.hot-update.js.map
