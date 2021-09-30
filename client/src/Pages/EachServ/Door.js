@@ -5,12 +5,12 @@ import cardData from "../../Seeds/services";
 // import { useParams } from "react-router-dom";
 
 import doors from "../../assets/doors.jpg";
-import floor from "../../assets/floori.jpg";
-import bathroom from "../../assets/bath.jpg";
-import painting from "../../assets/paint.jpg";
-import electrical from "../../assets/electic.jpg";
-import roofing from "../../assets/roofing.jpg";
-import plumbing from "../../assets/plumb.jpg";
+import floor from "../../assets/door.jpg";
+import bathroom from "../../assets/door3.jpg";
+import painting from "../../assets/door4.jpg";
+import electrical from "../../assets/door5.jpg";
+import roofing from "../../assets/door6.jpg";
+import plumbing from "../../assets/door7.jpg";
 
 function image (image) {
     switch (image) {
