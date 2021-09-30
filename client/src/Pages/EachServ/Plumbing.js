@@ -2,31 +2,31 @@ import React from "react";
 import "./style.css";
 import cardData from "../../Seeds/services";
 
-// import doors from "../../assets/plumbing/plumbing1.jpg";
-// import floor from "../../assets/plumbing/plumbing2.jpg";
-// import bathroom from "../../assets/plumbing/plumbing3.jpg";
-// import painting from "../../assets/plumbing/plumbing4.jpg";
-// import electrical from "../../assets/plumbing/plumbing5.jpg";
-// import roofing from "../../assets/plumbing/plumbing6.jpg";
-// import plumbing from "../../assets/plumbing/plumbing7.jpg";
+import doors from "../../assets/plumbing/plumbing1.jpg";
+import floor from "../../assets/plumbing/plumbing2.jpg";
+import bathroom from "../../assets/plumbing/plumbing3.jpg";
+import painting from "../../assets/plumbing/plumbing4.jpg";
+import electrical from "../../assets/plumbing/plumbing5.jpg";
+import roofing from "../../assets/plumbing/plumbing6.jpg";
+import plumbing from "../../assets/plumbing/plumbing7.jpg";
 
 
 function image (image) {
     switch (image) {
-        // case 'doors':
-        //     return doors;
-        // case 'floor':
-        //     return floor;
-        // case 'bathroom':
-        //     return bathroom;
-        // case 'painting':
-        //     return painting;
-        // case 'electrical':
-        //     return electrical;
-        // case 'roofing':
-        //     return roofing;
-        // case 'plumbing':
-        //     return plumbing;
+        case 'doors':
+            return doors;
+        case 'floor':
+            return floor;
+        case 'bathroom':
+            return bathroom;
+        case 'painting':
+            return painting;
+        case 'electrical':
+            return electrical;
+        case 'roofing':
+            return roofing;
+        case 'plumbing':
+            return plumbing;
         default:
             break;
     }

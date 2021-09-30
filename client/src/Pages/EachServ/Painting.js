@@ -7,8 +7,8 @@ import floor from "../../assets/painting/painting2.jpg";
 import bathroom from "../../assets/painting/painting3.jpg";
 import painting from "../../assets/painting/painting4.jpg";
 import electrical from "../../assets/painting/painting5.jpg";
-// import roofing from "../../assets/painting/painting6.jpg";
-// import plumbing from "../../assets/painting/painting7.jpg";
+import roofing from "../../assets/painting/painting6.jpg";
+import plumbing from "../../assets/painting/painting7.jpg";
 
 
 function image (image) {
@@ -23,10 +23,10 @@ function image (image) {
             return painting;
         case 'electrical':
             return electrical;
-        // case 'roofing':
-        //     return roofing;
-        // case 'plumbing':
-        //     return plumbing;
+        case 'roofing':
+            return roofing;
+        case 'plumbing':
+            return plumbing;
         default:
             break;
     }
@@ -37,7 +37,7 @@ console.log(image);
 const MyGallery = () => {
     return (
         <div>
-            <p className="title text-center">Lighting Installation, Lighting repair, Electrical repair, Socket and switch installation, Electrical Panel Replacement & Installation & more.</p>
+            <p className="title text-center">Our goal is to leave our customers satistifed. We don't believe in cutting corners, everything must be done with the appropriate steps. We take great pride in our work.</p>
             <div className="row text-center cardSection">
             {cardData.map(item => (
                     <div className="card"  key={item.id}>

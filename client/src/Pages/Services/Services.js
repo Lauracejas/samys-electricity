@@ -75,12 +75,12 @@ const Services = () => {
           <ul className="col-sm-3 text-left">
             <li>Electrical Repairs</li>
             <li>Electrical Installation</li>
-            <li>Whole-Home Backup Generators</li>
             <li>Panel and Breaker Services</li>
             <li>Rewiring Services</li>
-            <li>Protection</li>
+            <li>Surge Protection</li>
             <li>Electric Meter Services</li>
             <li>Whole-Home Surge</li>            
+            <li>Other general services</li>            
           </ul>
           
         </div>
