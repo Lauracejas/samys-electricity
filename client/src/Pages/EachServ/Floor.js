@@ -37,7 +37,7 @@ console.log(image);
 const MyGallery = () => {
     return (
         <div>
-            <p className="title text-center">Lighting Installation, Lighting repair, Electrical repair, Socket and switch installation, Electrical Panel Replacement & Installation & more.</p>
+            <p className="title text-center">We offer services like: Plumbing Repairs, Leak Detection, Drain unclogging, Water heater service and installation, Disposals, Sewers, Piping & Repiping, Water Line Replacement</p>
             <div className="row text-center cardSection">
             {cardData.map(item => (
                     <div className="card"  key={item.id}>

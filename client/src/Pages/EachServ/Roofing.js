@@ -37,7 +37,7 @@ console.log(image);
 const MyGallery = () => {
     return (
         <div>
-            <p className="title text-center">Lighting Installation, Lighting repair, Electrical repair, Socket and switch installation, Electrical Panel Replacement & Installation & more.</p>
+            <p className="title text-center">Our services include roof replacement and re-roofing, as well as roof repair. We have the experience, knowledge and expertise that it takes to get your roofing job completed on time and to your satisfaction.</p>
             <div className="row text-center cardSection">
             {cardData.map(item => (
                     <div className="card"  key={item.id}>
