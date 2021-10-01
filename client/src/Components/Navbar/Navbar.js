@@ -23,11 +23,11 @@ const NavBar = (props) => {
 
       <Navbar collapseOnSelect expand="lg"  className="bg header" >
             <Navbar.Brand >
-            <Link to="/"><strong>Samy's Electrical Services</strong></Link>
-
+            <Link to="/" className="hide-sm show-lg"><strong>Samy's Electrical Services</strong></Link>
+            <Link to="/" className="show-sm hide-lg"><strong>Samy's</strong></Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor: "#fff", alignItems: "center"}}/>
-            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" >            
+            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" style={{ backgroundColor: "rgb(184, 18, 18)", zIndex: 1}} >
                 <Nav>
                     <Nav.Link >
                         <Link  style={{color: "#fff", backgroundColor: "rgb(184, 18, 18)"}} to="/About" className={location.pathname === "/About" ? "nav-link active" : "nav-link"}>

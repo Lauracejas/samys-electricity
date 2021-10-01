@@ -66,3 +66,22 @@ Link {
     width: 25px;
 }
 
+@media screen and (max-width: 600px) {
+  .hide-sm {
+    display: none;
+  }
+  .show-sm {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hide-lg {
+    display: none;
+  }
+
+  .show-lg {
+    display: block;
+  }
+}
+
