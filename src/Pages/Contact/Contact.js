@@ -41,31 +41,35 @@ const Contact = () => {
 
                     <div className="typeZone col-md-6 ">
                         <form onSubmit={sendEmail}>
-                            <input
-                                type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name"
-                                required>
-                            </input>
-                            <input
-                                type="email"
-                                id="mailid"
-                                name="email"
-                                placeholder="Email Address"
-                                required></input>
-                            <input
-                                type="text"
-                                id="sub"
-                                name="subject"
-                                placeholder="Subject"
-                                required></input>
-                            <textarea
-                                id="msg"
-                                name="message"
-                                placeholder="How can I help you?"
+                            <div className="row justify-content-center" style={{margin: 20}}>
+                                <div className="col-md-8">
+                                    <input
+                                        type="text"
+                                        id="fname"
+                                        name="firstname"
+                                        placeholder="Your name"
+                                        required>
+                                    </input>
+                                    <input
+                                        type="email"
+                                        id="mailid"
+                                        name="email"
+                                        placeholder="Email Address"
+                                        required></input>
+                                    <input
+                                        type="text"
+                                        id="sub"
+                                        name="subject"
+                                        placeholder="Subject"
+                                        required></input>
+                                    <textarea
+                                        id="msg"
+                                        name="message"
+                                        placeholder="How can I help you?"
 
-                                required></textarea>
+                                        required></textarea>
+                                </div>
+                            </div>
                             <input id="sendBut" type="submit" className="btn btn-info-secondary" value="Send Mesage"></input>
                         </form>
                         {/* <button onSubmit={sendEmail} style={{ cursor: 'pointer' }} className="btn btn-secondary" type="submit"><label style={{ cursor: 'pointer' }} id="not-dark">Send Message</label></button> */}

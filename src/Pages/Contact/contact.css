@@ -81,22 +81,26 @@ span {
 }
 
 #fname {
-    width: 300px;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 #mailid {
-    width: 300px;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 #sub {
-    width: 300px;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 #msg {
-    width: 300px;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 #sendBut {
