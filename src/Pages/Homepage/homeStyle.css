@@ -10,18 +10,23 @@
 .pictureHero {
     width: 100%;
 }
+.leter {
+    justify-content: center;
+}
 
-.backOpacity {
-    background-color:  rgba(135, 135, 138, 0.5);
+.card {
+    background-color:  rgba(135, 135, 138, 0.6);
     border-radius: 25px;
-    padding-top: 2vh;
+    padding: 2vh;
     padding-bottom: 2vh;
-    margin-top: 200px;
     margin-right: 10px;
+    margin-left: 10px;
     color: white;
     height: fit-content;
-    justify-content: center;
-    
+    width: fit-content;
+    margin-top: 100px;   
+    text-align: center; 
+    padding-right: 2vh;
 }
 
 .handyman {

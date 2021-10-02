@@ -44,3 +44,7 @@
     transform: rotate(360deg);
   }
 } */
+
+.row {
+  --bs-gutter-x: 0;
+}
