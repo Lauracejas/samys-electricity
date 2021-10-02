@@ -39,9 +39,15 @@
 .homePic {
    margin: 10px; 
    height: fit-content;
-   margin-top: 65px;
+   float:right;
+   /* margin-top: 65px; */
    overflow-x: hidden;
+   background-position: fixed;
 
+}
+.handy-description{
+float: left;
+justify-content: space-around;
 }
 
 .first {

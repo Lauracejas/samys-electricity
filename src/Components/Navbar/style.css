@@ -24,6 +24,7 @@ strong {
 }
 .header {
     height: 90px;
+    width: 100%;
     background-color: rgb(184, 18, 18);
     color:seashell;    
 }
@@ -75,7 +76,7 @@ Link {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
   .hide-lg {
     display: none;
   }

@@ -78,8 +78,8 @@ const Contact = () => {
                             </p>
                         </div>
                         <p><i className="fas fa-map-marker-alt"></i> Charlotte, NC</p>
-                        <p><Link to="tel:9802750597"><FaPhone />(704) 681 2083</Link></p>
-                        <p><Link to="mailto:samyselectricllc@gmail.com" ><FaEnvelope /> samyselectricllc@gmail.com</Link></p>
+                        <p><a href="tel:9802750597"><FaPhone />(704) 681 2083</a></p>
+                        <p><a href="mailto:samyselectricllc@gmail.com" ><FaEnvelope /> samyselectricllc@gmail.com</a></p>
                         {/* <div className="buttonz">
                             <Link to="/" target="blank" id="btn" className="button button-outline button-white">
                                 
