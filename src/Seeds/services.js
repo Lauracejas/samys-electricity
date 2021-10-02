@@ -9,7 +9,7 @@ const cardData = [
   {
     id: 2,
     title: "Roofing",
-    description: "We provide roofing repair, and roof installation. Contact Us For a Free Estimate.",
+    description: "We provide roofing repair, and roof installation. We have the experience, contact Us For a Free Estimate.",
     image: "roofing",
     url: "/Roofing"
   },
@@ -30,21 +30,21 @@ const cardData = [
   {
     id: 5,
     title: "Doors",
-    description: "Do You Have an Old or Outdated Door? Contact Us For a Free Estimate.",
+    description: "Do You Have an Old or Outdated Door? We have the experience, contact Us For a Free Estimate.",
     image: "doors",
     url: "/Door"
   },
   {
     id: 6,
     title: "Floor",
-    description: "Do You Have Damaged or Outdated Flooring? Contact Us For a Free Estimate. ",
+    description: "Do You Have Damaged or Outdated Flooring? We have the experience, contact Us For a Free Estimate. ",
     image: "floor",
     url: "/Floor"
   },  
   {
     id: 7,
     title: "Painting",
-    description: "There’s nothing like a fresh coat of paint to boost your home’s exterior curb appeal!",
+    description: "There’s nothing like a fresh coat of paint to boost your home’s exterior curb appeal! Contact Us!",
     image: "painting",
     url: "/Painting"
   },

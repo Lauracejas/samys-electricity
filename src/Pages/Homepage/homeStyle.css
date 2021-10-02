@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.card {
+.backOpacity {
     background-color:  rgba(135, 135, 138, 0.6);
     border-radius: 25px;
     padding: 2vh;
@@ -23,10 +23,10 @@
     margin-left: 10px;
     color: white;
     height: fit-content;
-    width: fit-content;
-    margin-top: 100px;   
+    width: fit-content; 
     text-align: center; 
     padding-right: 2vh;
+    margin-top: 500px;
 }
 
 .handyman {
@@ -44,11 +44,10 @@
 .homePic {
    margin: 10px; 
    height: fit-content;
-   float:right;
+   float: right;
    /* margin-top: 65px; */
    overflow-x: hidden;
    background-position: fixed;
-
 }
 .handy-description{
 float: left;

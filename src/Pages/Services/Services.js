@@ -62,9 +62,9 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
-        <div className="sectionOne row">
-          <p className="col-sm-7  textClose">
+      <div className="container-fluid content">
+        <div className="sectionOne first row">
+          <p className="col-sm-7 handy-description">
             Samy's Restoration is proud to help residential and commercial customers by delivering professional, reliable maintenance, repairs, and other improvements, promptly, on-budget, and on time. We are a customer-focused company and seek to change your mind about maintenance companies when you need to schedule an appointment – yesterday. Our work is backed with a two-year warranty, so you can trust that we strive to exceed your expectations for a job well done.
           </p>
           <img src={Photo} alt="close1" className="col-sm-4 closePic " />
