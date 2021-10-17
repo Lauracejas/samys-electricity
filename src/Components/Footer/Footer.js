@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/samyselectric/" >
                 <FaFacebook className="faceBook" style={{ size: "20px" }} />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/samyselectric/">
                 <FaInstagram className="InstaGram" style={{ color: "darkorange", size: "20px" }} />
             </a>
 

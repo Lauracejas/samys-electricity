@@ -72,7 +72,6 @@ const Contact = () => {
                             </div>
                             <input id="sendBut" type="submit" className="btn btn-info-secondary" value="Send Mesage"></input>
                         </form>
-                        {/* <button onSubmit={sendEmail} style={{ cursor: 'pointer' }} className="btn btn-secondary" type="submit"><label style={{ cursor: 'pointer' }} id="not-dark">Send Message</label></button> */}
                     </div>
                     <div className="linksMe col-md-6 ">
 
@@ -82,26 +81,14 @@ const Contact = () => {
                             </p>
                         </div>
                         <p><i className="fas fa-map-marker-alt"></i> Charlotte, NC</p>
-                        <p><a href="tel:9802750597"><FaPhone />(704) 681 2083</a></p>
-                        <p><a href="mailto:samyselectricllc@gmail.com" ><FaEnvelope /> samyselectricllc@gmail.com</a></p>
-                        {/* <div className="buttonz">
-                            <Link to="/" target="blank" id="btn" className="button button-outline button-white">
-                                
-                              <span className="ico-circle">
-                                    <i className="ion-social-facebook"></i>
-                                </span> 
-                            </Link>
-                            <Link to="/" target="blank" id="btn" className="button button-outline button-white"><span className="ico-circle">
-                                <i className="ion-social-instagram"></i>
-                            </span></Link>
-
-                        </div> */}
+                        <p><a href="tel:7046812083"><FaPhone />(704) 681 2083</a></p>
+                        <p><a href="mailto:samyselectricllc@gmail.com" ><FaEnvelope />samyselectricllc@gmail.com</a></p>
                         <a href="https://www.facebook.com/samyselectric/" >
                         <FaFacebook className="faceBook" style={{ color: "darkblue", size:"20px" }}/>
                         </a>
-                        <Link to="/">
+                        <a href="https://www.instagram.com/samyselectric/">
                         <FaInstagram className="InstaGram" style={{ color: "darkorange", size:"20px" }}/>
-                        </Link>
+                        </a>
 
 
                     </div>
