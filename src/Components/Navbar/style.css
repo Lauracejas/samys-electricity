@@ -8,6 +8,12 @@ strong {
     cursor: pointer;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white;  
+  margin-right: 10px;
+
+}
+
 .navbar-brand {
     margin-right: 0;
 }
@@ -21,6 +27,7 @@ strong {
 
 .navbar-brand:hover{
     transform: scale(1.1);
+    color: white;
 }
 .header {
     height: 90px;
@@ -29,42 +36,34 @@ strong {
     color:seashell;    
 }
 
-/* .links > ul > li {
-    display: inline-flex;
-    list-style-type: none;
-    margin-left: 30px;
-    cursor: pointer;
-    text-decoration: underline;
-    justify-content: space-around;
-} */
-
 Link {
     float: right;
     margin: 5px;
     margin-right: 20px;
     margin-top: 25px;
+    color: white;
 }
 .nav-link {
   margin-left: 20px;
   border-radius: 4px;
   display: row;
+  color: white;
 }
 
 .nav-link:hover{
     transform: scale(1.1);
+    color: white;
 }
 
 .navbar-nav {
   justify-content: center;
    display: inline-flex;
+   color: white;
 }
 
-/* .navbar-toggler{
-    width: 50px;
-    margin-left: 10px;
-} */
 .navbar-toggler-icon{
     width: 25px;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
