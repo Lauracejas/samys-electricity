@@ -46,8 +46,8 @@
    height: fit-content;
    float: right;
    /* margin-top: 65px; */
-   overflow-x: hidden;
-   background-position: fixed;
+   /* overflow-x: hidden;
+   background-position: fixed; */
 }
 .handy-description{
 float: left;

@@ -5,18 +5,6 @@ import emailjs from 'emailjs-com';
 import "./contact.css"
 
 const Contact = () => {
-    // const contact = {
-    //     contactUrl: "/"
-
-    // };
-
-    // const [toSend, setToSend] = useState({
-    //     firstname: '',
-    //     Email: '',
-    //     Subject: '',
-    //     message: '',
-    //   });
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_f4d6amz', 'template_3z9mqk4', e.target, 'user_rXecYYe6Hjaxa2MTi2XbQ')
@@ -27,11 +15,6 @@ const Contact = () => {
             });
         e.target.reset();
     };
-
-    //   const handleChange = (e) => {
-    //     setToSend({ ...toSend, [e.target.name]: e.target.value });
-    //   };
-
     return (
         <div className="contact">
             <h1 className="heading">Contact Us</h1>
@@ -41,7 +24,7 @@ const Contact = () => {
 
                     <div className="typeZone col-md-6 ">
                         <form onSubmit={sendEmail}>
-                            <div className="row justify-content-center" style={{margin: 20}}>
+                            <div className="row justify-content-center" style={{ margin: 20 }}>
                                 <div className="col-md-8">
                                     <input
                                         type="text"
@@ -84,10 +67,10 @@ const Contact = () => {
                         <p><a href="tel:7046812083"><FaPhone />(704) 681 2083</a></p>
                         <p><a href="mailto:samyselectricllc@gmail.com" ><FaEnvelope />samyselectricllc@gmail.com</a></p>
                         <a href="https://www.facebook.com/samyselectric/" >
-                        <FaFacebook className="faceBook" style={{ color: "darkblue", size:"20px" }}/>
+                            <FaFacebook className="faceBook" style={{ color: "darkblue", size: "20px" }} />
                         </a>
                         <a href="https://www.instagram.com/samyselectric/">
-                        <FaInstagram className="InstaGram" style={{ color: "darkorange", size:"20px" }}/>
+                            <FaInstagram className="InstaGram" style={{ color: "darkorange", size: "20px" }} />
                         </a>
 
 

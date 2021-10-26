@@ -10,4 +10,6 @@
 
 .card-image {
     width: 550px;
+    background-position: fixed;
+    background-size: cover
 }
