@@ -31,8 +31,9 @@
 
 .homePict {
     width:min-content;
-    height: min-content;
     float:right;
     margin-top: 0;
     padding-left: 20px ;
+    overflow-x: hidden;
+    background-position: fixed;
 }

@@ -42,20 +42,19 @@
 }
 
 .homePic {
-   margin: 10px; 
-   height: fit-content;
+   margin: 10px;
    float: right;
-   /* margin-top: 65px; */
-   /* overflow-x: hidden;
-   background-position: fixed; */
+   overflow-x: hidden;
+   background-position: fixed;
 }
+
 .handy-description{
 float: left;
 justify-content: space-around;
 }
 
 .first {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .content {
